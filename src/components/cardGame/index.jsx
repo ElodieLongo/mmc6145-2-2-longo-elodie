@@ -10,6 +10,7 @@ export default function CardGame({
   const [cards, setCards] = useState()
   const [firstClick, setFirstClick] = useState(true)
   const [clicksDisabled, setClicksDisabled] = useState(false)
+  const [isGameActive, setIsGameActive] = useState(false);
 
   useEffect(() => {
     if (cards) return
